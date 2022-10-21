@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Shouting Machine</title>
+</head>
+<body>
+  <h1>This is a shouting machine!</h1>
+  <p>Type a sentence in, and we'll shout it back at you!</p>
+  <form>
+    <label for="shoutInput">Your sentence,</label>
+    <input id="shoutInput" type="text" name="shoutInput">
+    <button type="submit">Show me my shout!</button>
+  </form>
+
+  <div id="sentenceShouted" class="hidden">
+    <p>This is your original sentence, "<span id="original">____________</span>."   And this is your shouted sentence, "<span id="shout">____________</span>!"</p>
+  </div>
+</body>
+</html>
